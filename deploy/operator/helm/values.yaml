@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: stable
+  repository: armory/spinnaker-operator
+  tag: 1.3.0
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
